@@ -1,0 +1,27 @@
+git-> version control system-> 1)version changes
+			       2)project save
+we are deploying this projects in remote(not at our location) server
+version control systems are like git
+repository means project folder
+remote repository ->storing of repository  on any internet server like bit bucket,gitlab,github,
+github is one of remote repository hosting(storing) service
+
+1)remote repository
+2)local repository
+3)staging area
+4)working directory -> working in a file (untracked files) 
+
+
+
+syntax
+git init -> initializing this project as git repo then it will create .git file
+git status->it will tell about commits and untracked files
+
+the main target is save in remote repository so first save in local repository we have main place is staging area
+
+ex:-
+working directory        staging area      local repository        remote repository
+
+code.py                                     we want only code.py   push for move files in    example .txt                                                       remote rep
+                                            but not example.txt
+example.txt
